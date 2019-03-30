@@ -1,0 +1,250 @@
+.container {
+margin-bottom: 100px;
+}
+#nav-tab .nav-link {
+color: #000;
+}
+
+.bg-dark {
+	       background-color: #003466 !important;
+	
+}
+
+.template-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding-top: 10px;
+  margin-top: 15px;
+ max-height: 340px;
+
+  
+}
+
+.template-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.template-card img {
+
+object-fit: cover;
+height: auto;
+width:90%;
+align: center;
+margin: auto;
+
+}
+
+.card-content {
+  padding: 15px 16px;
+  text-align: center;
+}
+
+.card-container a {
+color: #000;
+text-decoration: none;
+}
+
+.template-card .template-options {
+visibility: hidden;
+color: #e1e1e1;
+}
+
+.template-card:hover .template-options {
+visibility: visible;
+animation-name: appear;
+animation-duration: .5s;
+}
+
+@keyframes appear {
+
+0% {
+	opacity: 0;
+}
+
+100% {
+		opacity: 100;
+	
+
+}
+}
+
+     .form-control, .custom-select, .flexdatalist-multiple {
+border-radius: 0 !important ;
+}
+
+
+
+.footer-buttons {
+       
+       background-color: #003466;
+       
+       }
+       
+label {
+       
+/*        display: none;
+ */       font-size: 12px;
+ 		margin-bottom: 0rem;
+ 		visibility: hidden;
+       
+       }
+       
+       
+       .form-control, .custom-select, .flexdatalist-multiple {
+border-radius: 0 !important ;
+/* border-bottom: 0px #ced4da !important;
+border-top: 0px #ced4da !important;
+border-left: 0px #ced4da !important;
+border-right: 0px #ced4da !important; */
+
+}
+
+.form-field {
+	border: 1px solid #ced4da;
+}
+
+
+.btn-primary {
+   
+    border-radius: 0px;
+}
+
+.breadcrumbs li {
+	
+
+  display: inline;
+  padding-right:15px;
+    padding-left:15px;
+     
+}
+
+.breadcrumb a {
+	color: #bfbfbf;
+
+}
+
+.breadcrumbs .breadcrumb {
+    
+    
+    margin-bottom: 0rem;
+    background-color: #54565800;
+   
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 1.5rem;
+    color: #fff;
+    content: ">";
+}
+
+
+	
+.fa-search {
+	
+	color:#fff;
+}
+
+.breadcrumb li span {
+	color: #fff;
+}
+
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+
+
+.spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 50%;
+  left: 50%;
+
+}
+
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 60px; /* 30px from the bottom */
+}
+
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 60px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 60px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 60px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 60px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
+.gjs-block {
+  width: auto;
+  height: auto;
+  min-height: auto;
+}
+
+
+.review-labels {
+	
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.review-content-iframe {
+	height:1000px;
+	width:100%;
+	border:none;
+	overflow: hidden;
+
+	  
+}
+
+.form-control:focus{
+    border-color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
